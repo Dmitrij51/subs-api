@@ -1,0 +1,70 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Виртуальные окружения ---
+.venv/
+venv/
+env/
+ENV/
+.venv.bak/
+
+# --- Настройки и секреты ---
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# --- Базы данных (SQLite создается при старте приложения) ---
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.sqlite
+*.sqlite3
+tests/test_app.db
+
+# --- Тесты и покрытие ---
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+nosetests.xml
+
+# --- Линтеры и типизация ---
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pylint.d/
+
+# --- Логи и временные файлы ---
+*.log
+logs/
+*.bak
+*.orig
+*.rej
+*.tmp
+*.temp
+
+# --- Редакторы и ОС ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Jupyter ---
+.ipynb_checkpoints/
